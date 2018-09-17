@@ -65,14 +65,11 @@ void main(void)
 
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
-    RSSI_Data[0] =0xff;
-     RSSI_Data[0] = 0xff;
    
     while (1)
     {
         LIN_handler();
-        RSSI_Data[0] = 0xff;
-        RSSI_Data[0]=0xff;
+
     }
 }
 /**
